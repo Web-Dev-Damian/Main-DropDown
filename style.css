@@ -1,36 +1,36 @@
-*{
-    background-color: lightskyblue;
-}
-.meniu{
-    height: 200px;
-    display: block;
-}
-.buton{
-    color:white;
-    background-color: rgb(39, 137, 202);
-    padding: 10px;
-    height: 40px;
-    width: 100px;
-    position: relative;
+.dropbtn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 7px;
-}
-.op{
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
     position: absolute;
-    display:none;
-    top:45px;
-    width: 100px;
-}
-.op1,.op2,.op3{
-    height: 50px;
-    background-color: rgb(241, 241, 241);
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
- .buton:hover+.op{
-    display:block;
-}
-.op:hover{
-    display:block;
-}
+    background-color: #f9f9f9;
+    min-width: 120px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
