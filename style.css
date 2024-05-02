@@ -1,0 +1,36 @@
+*{
+    background-color: lightskyblue;
+}
+.meniu{
+    height: 200px;
+    display: block;
+}
+.buton{
+    color:white;
+    background-color: rgb(39, 137, 202);
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    position: relative;
+    border: none;
+    border-radius: 7px;
+}
+.op{
+    position: absolute;
+    display:none;
+    top:45px;
+    width: 100px;
+}
+.op1,.op2,.op3{
+    height: 50px;
+    background-color: rgb(241, 241, 241);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ .buton:hover+.op{
+    display:block;
+}
+.op:hover{
+    display:block;
+}
